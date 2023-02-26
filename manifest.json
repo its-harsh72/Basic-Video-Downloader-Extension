@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Video Downloader",
+    "version": "1.0",
+    "description": "A simple extension to downloadYoutube Video Downloader for Dubdub.ai(Assignment)",
+    "icons": {
+      "16": "/Image/16.png",
+      "48": "/Image/48.png"    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Youtube Video Downloader for Dubdub.ai"
+    }
+  }
+  

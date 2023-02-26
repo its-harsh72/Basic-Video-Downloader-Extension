@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background:linear-gradient(to right, rgb(236, 12, 12), rgb(189, 66, 66));
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100vh;
+  }
+  .from{
+    background: #f76782;
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    width: 305px;
+    border-radius: 20px;
+  }
+  h1{
+    text-align: center;
+    color: #1853EA;
+    font-size: 25px;
+  }
+  .link,.format{
+      width: 100%;
+      height: 60px;
+      border: 2px solid rgb(197, 14, 14);
+      margin-top: 15px;
+      text-align: center;
+  }
+  .btn{
+    width: 100%;
+    height: 60px;
+    border: none;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(242, 6, 6);
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+  }
